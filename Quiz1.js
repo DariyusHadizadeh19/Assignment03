@@ -63,7 +63,7 @@ choice.addEventListener('click', (e) => {
 
 
      const classToApply = 
-        selectedAnswer == currentQuestion.answer ? alert("Great!") : alert("feedback");
+        selectedAnswer == currentQuestion.answer ? alert("Great!") : alert("Wrong!");
 
   
 
